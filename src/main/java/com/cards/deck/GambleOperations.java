@@ -66,7 +66,7 @@ public class GambleOperations {
      */
     public Card dealOneCard() throws Exception {
         if(decIndex==52){
-            throw new Exception("No cards in Dec to return. please shuffle again.");
+            throw new Exception("No cards in Deck to return. please shuffle once again.");
         }
         Card card=deckOfCards.get(decIndex);
         decIndex++;
