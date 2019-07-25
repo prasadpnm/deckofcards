@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * This is Builder class for deck Of cards.
  */
-public class CardBuilderImpl implements ICardBuilder {
+public class CardBuilderImpl implements CardBuilder {
 
 
     /**

@@ -1,7 +1,7 @@
 package com.cards.card;
 import java.util.List;
 
-public interface ICardBuilder {
+public interface CardBuilder {
 
     public List<Card> buildDeckofCards();
 }

@@ -2,7 +2,7 @@ package com.cards.deck;
 
 import com.cards.card.Card;
 import com.cards.card.CardBuilderImpl;
-import com.cards.card.ICardBuilder;
+import com.cards.card.CardBuilder;
 
 import java.util.List;
 import java.util.Random;
@@ -13,7 +13,7 @@ import java.util.Random;
 public class GambleOperations {
 
     private List<Card> deckOfCards;
-    private ICardBuilder cardBuilder=new CardBuilderImpl();
+    private CardBuilder cardBuilder=new CardBuilderImpl();
     private int decIndex=0;
     private int decSize;
     private static GambleOperations gambleOperations;
