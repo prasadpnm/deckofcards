@@ -1,6 +1,6 @@
-# deckofcards
+# Deck Of Cards -Shuffle and DealOneCard
 
-this is simple App implementation for Deck of cards shuffle and select Deal card.
+This is simple prototype for Deck of cards shuffle and select DealOnecard.
 
 -Below class contains public methods for shuffle and dealOnecard.
 
